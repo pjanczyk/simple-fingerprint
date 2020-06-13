@@ -47,6 +47,6 @@ export function getFonts() {
     "Ubuntu",
   ];
   return fonts
-    .map((font) => `${font}: ${document.fonts.check(`12px "${font}"`)}`)
+    .filter((font) => document.fonts.check(`12px "${font}"`))
     .join(", ");
 }

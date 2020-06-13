@@ -10,7 +10,7 @@ export function getWebglRenderer() {
   ].join(", ");
 }
 
-export function getWebgl() {
+export function getWebglRender() {
   let canvas = document.createElement("canvas");
   canvas.width = 50;
   canvas.height = 50;

@@ -1,4 +1,4 @@
-export function getCanvas2d() {
+export function getCanvas2dRender() {
   let canvas = document.createElement("canvas");
   canvas.width = 200;
   canvas.height = 50;

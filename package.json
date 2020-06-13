@@ -22,5 +22,8 @@
   "homepage": "https://github.com/pjanczyk/simple-fingerprint#readme",
   "devDependencies": {
     "prettier": "^2.0.5"
+  },
+  "dependencies": {
+    "js-sha1": "^0.6.0"
   }
 }
