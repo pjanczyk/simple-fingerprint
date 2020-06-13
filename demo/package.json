@@ -4,6 +4,7 @@
   "description": "Demo of simple-fingerprint",
   "author": "Piotr Janczyk",
   "license": "MIT",
+  "homepage": "https://pjanczyk.github.io/simple-fingerprint/",
   "dependencies": {
     "js-sha1": "^0.6.0",
     "react": "^16.13.1",
