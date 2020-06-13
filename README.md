@@ -1,6 +1,10 @@
 # simple-fingerprint
 
-Simple browser fingerprinting library
+*Simple browser fingerprinting library*
+
+---
+
+Demo: [https://pjanczyk.github.io/simple-fingerprint/](https://pjanczyk.github.io/simple-fingerprint/)
 
 ### Installing
 
