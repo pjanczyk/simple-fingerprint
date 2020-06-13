@@ -1,0 +1,23 @@
+{
+  "name": "simple-fingerprint",
+  "version": "1.0.0",
+  "description": "Simple browser fingerprinting library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pjanczyk/simple-fingerprint.git"
+  },
+  "keywords": [
+    "fingerprint",
+    "fingerprinting"
+  ],
+  "author": "Piotr Janczyk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pjanczyk/simple-fingerprint/issues"
+  },
+  "homepage": "https://github.com/pjanczyk/simple-fingerprint#readme"
+}
