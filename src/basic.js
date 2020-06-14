@@ -17,7 +17,7 @@ export function getPlugins() {
 }
 
 export async function getHeaders() {
-  let response = await fetch("http://httpbin.org/headers");
+  let response = await fetch("https://httpbin.org/headers");
   let { headers } = await response.json();
   return ["Accept", "Accept-Encoding", "Accept-Language", "User-Agent"]
     .map((key) => `${key}: ${headers[key]}`)
