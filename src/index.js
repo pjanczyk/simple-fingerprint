@@ -42,15 +42,17 @@ async function computeUnstableComponents() {
   };
 }
 
-export async function computeFingerprintComponents() {
+async function computeFingerprintComponents() {
   return {
     ...(await computeStableComponents()),
     ...(await computeUnstableComponents()),
   };
 }
 
-export async function computeFingerprint() {
+async function computeFingerprint() {
   let components = await computeStableComponents();
   let concatenated = Object.values(components).map(String).join("\n");
   return sha1(concatenated);
 }
+
+export { computeFingerprintComponents, computeFingerprint };
