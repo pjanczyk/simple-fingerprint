@@ -1,15 +1,15 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8f8f8aa7404eaab565fe844bc898bf61",
+    "revision": "fccbddaa05748caf25cdc79943ce1b60",
     "url": "/simple-fingerprint/index.html"
   },
   {
-    "revision": "3f4656fb476e74637fb0",
-    "url": "/simple-fingerprint/static/js/2.7751ded2.chunk.js"
+    "revision": "115a9e237e047c3c88b8",
+    "url": "/simple-fingerprint/static/js/2.34de5e4c.chunk.js"
   },
   {
     "revision": "4a6a1a392c796b0284cd185ec5f83fa8",
-    "url": "/simple-fingerprint/static/js/2.7751ded2.chunk.js.LICENSE.txt"
+    "url": "/simple-fingerprint/static/js/2.34de5e4c.chunk.js.LICENSE.txt"
   },
   {
     "revision": "e974082318a4914f18cc",
